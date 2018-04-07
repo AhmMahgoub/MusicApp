@@ -1,0 +1,45 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/tan_background"
+    android:orientation="vertical"
+    tools:context="com.example.android.musicapp.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="4">
+
+        <TextView
+            android:id="@+id/PlayingNow"
+            style="@style/MainPage"
+            android:background="@drawable/musical">
+        </TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/YourSongs"
+            style="@style/CategoryStyle"
+            android:background="@color/category_colorsA"
+            android:text="@string/Your_songs" />
+
+        <TextView
+            android:id="@+id/Playlists"
+            style="@style/CategoryStyle"
+            android:background="@color/category_colorsB"
+            android:text="@string/Playlists" />
+
+        <TextView
+            android:id="@+id/Search"
+            style="@style/CategoryStyle"
+            android:background="@color/category_colorsA"
+            android:text="@string/Search" />
+    </LinearLayout>
+</LinearLayout>
