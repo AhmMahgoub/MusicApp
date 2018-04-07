@@ -25,6 +25,7 @@ public class YourSongs extends AppCompatActivity {
         songs.add(new Track("Bad Liarr","Selena Gomez",R.drawable.iconss));
         songs.add(new Track("DNA","Kendrick Lamar",R.drawable.iconss));
         songs.add(new Track("Bodak Yellow","Cardi B",R.drawable.iconss));
+        songs.add(new Track("Bodak Yellow","Cardi B",R.drawable.iconss));
 
         TrackAdapter tracks = new TrackAdapter(this,songs);
 
