@@ -16,4 +16,7 @@
 
     <!-- Category name for the vocabulary words for family members [CHAR LIMIT=20] -->
     <string name="search_hint">Playlists</string>
+
+    <!-- Category name for the vocabulary words for Play now button-->
+    <string name="play_Now">PlayNow</string>
 </resources>
