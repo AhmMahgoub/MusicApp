@@ -14,7 +14,6 @@ public class Track {
 
     //name of the singer
     private int mImageResourceId ;
-
     /*
    * Create a new Track object.
    *

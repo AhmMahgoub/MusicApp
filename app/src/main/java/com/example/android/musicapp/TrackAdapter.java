@@ -21,9 +21,7 @@ import java.util.ArrayList;
 
 public class TrackAdapter extends ArrayAdapter<Track> {
 
-
     private static final String LOG_TAG = TrackAdapter.class.getSimpleName();
-
     /**
      * @param context The current context. Used to inflate the layout file.
      * @param Tracks  A List of AndroidFlavor objects to display in a list
@@ -31,9 +29,7 @@ public class TrackAdapter extends ArrayAdapter<Track> {
     public TrackAdapter(Context context, ArrayList<Track> Tracks) {
 
         super(context, 0, Tracks);
-        
     }
-
     /**
      * Provides a view for an AdapterView (ListView, GridView, etc.)
      *
